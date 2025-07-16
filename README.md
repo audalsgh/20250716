@@ -13,6 +13,10 @@
 
 [Ultralytics 사이트의 YOLO 설명](https://docs.ultralytics.com/ko/models/yolov8/#performance-metrics)
 
+YOLOv8의 스몰, 미디엄, 엑스라지까지 성능요약, fps가 가장 중요. 크게 차이난다! 엑스라지는 colab에선 못할것.<br>
+YOLOv8을 회사들이 많이 쓰고있고, 더 높은 버전을 쓸수도 있다.
+<img width="837" height="506" alt="image" src="https://github.com/user-attachments/assets/1bfe0c89-cc34-4938-af7f-0f8414806d43" /><br>
+
 | 자주쓰이는 용어 | 설명 |
 |------|------|
 | backbone | 이미지에서 특징을 추출하는 역할을 하는 CNN 구조 (ex: CSPDarknet, EfficientNet 등) |
@@ -40,10 +44,6 @@ results = model("input.mp4", save=True, conf=0.3, iou=0.5)
 - iou : NMS에서 겹침 허용 정도
 - save=True : 결과 이미지 또는 영상 저장 여부
 - save_txt=True : 예측 좌표 `.txt` 파일로 저장
-
-YOLOv8의 스몰, 미디엄, 엑스라지까지 성능요약, fps가 가장 중요. 크게 차이난다! 엑스라지는 colab에선 못할것.<br>
-YOLOv8을 회사들이 많이 쓰고있고, 더 높은 버전을 쓸수도 있다.
-<img width="837" height="506" alt="image" src="https://github.com/user-attachments/assets/1bfe0c89-cc34-4938-af7f-0f8414806d43" /><br>
 
 ## YOLOv8에 이미지, 비디오를 업로드해보는 예제
 <img width="785" height="330" alt="image" src="https://github.com/user-attachments/assets/769096e7-6c2b-4dad-a459-eed03baeaece" />
