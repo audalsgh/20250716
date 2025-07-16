@@ -39,7 +39,7 @@ YOLOv8의 스몰, 미디엄, 엑스라지까지 성능요약, fps가 가장 중�
 YOLOv8을 회사들이 많이 쓰고있고, 더 높은 버전을 쓸수도 있다.
 <img width="837" height="506" alt="image" src="https://github.com/user-attachments/assets/1bfe0c89-cc34-4938-af7f-0f8414806d43" /><br>
 
-### YOLOv8에 이미지, 비디오를 업로드해보는 예제
+## YOLOv8에 이미지, 비디오를 업로드해보는 예제
 - cpu로 하게되면 시간이 오래걸리니 꼭 런타임을 gpu로 선택하자.
 <img width="1573" height="719" alt="image" src="https://github.com/user-attachments/assets/ba4044db-e3c5-4138-8bc7-cfde0c1309e0" />
 
