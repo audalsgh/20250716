@@ -40,4 +40,3 @@ YOLOv8을 회사들이 많이 쓰고있고, 더 높은 버전을 쓸수도 있�
 
 - val_batch0_labels.jpg, train_vatch0.jpg 내부엔 샘플사진을 받고 모델이 라벨링해둔 것들을 살펴볼수있다.
 <img width="812" height="809" alt="image" src="https://github.com/user-attachments/assets/5ac5c510-1b94-466a-8b6e-9f2e13df80f0" />
-<img width="817" height="453" alt="image" src="https://github.com/user-attachments/assets/8acf32c1-1907-42e3-8f6f-0d5b870f8477" />
