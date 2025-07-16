@@ -10,3 +10,7 @@
 ## 2. YOLO와 Ultralytics (울트라리틱스)
 교수님의 정리본 링크
 [Ultralytics_v8.md](https://github.com/jetsonmom/6.23_automobility_lesson/blob/main/Ultralytics_v8.md)
+
+<img width="837" height="506" alt="image" src="https://github.com/user-attachments/assets/1bfe0c89-cc34-4938-af7f-0f8414806d43" /><br>
+YOLOv8의 스몰, 미디엄, 엑스라지까지 성능요약, fps가 가장 중요. 크게 차이난다! 엑스라지는 colab에선 못할것.<br>
+YOLOv8을 회사들이 많이 쓰고있고, 더 높은 버전을 쓸수도 있다.<br>
