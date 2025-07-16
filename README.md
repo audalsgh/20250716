@@ -11,19 +11,24 @@
 교수님의 필기 정리본 링크
 [Ultralytics_v8.md](https://github.com/jetsonmom/6.23_automobility_lesson/blob/main/Ultralytics_v8.md)
 
-자주쓰이는 용어
-- backbone : 이미지에서 특징을 추출하는 역할을 하는 CNN 구조 (ex: CSPDarknet, EfficientNet 등)
-- head : 추출된 특징을 바탕으로 객체의 클래스와 위치를 예측하는 부분
-- image size (imgsz=640) : 입력 이미지의 해상도. 작을수록 속도 빠름, 크면 정확도↑
-- batch size : 한 번에 처리할 이미지 수. GPU 메모리에 따라 조절 필요
-- labels : 라벨 정보 파일 (클래스 번호, bounding box 좌표 등이 포함된 .txt 파일)
-- class :	탐지하려는 객체의 종류. ex) 사람, 자동차, 자전거 등
-- train.py, val.py, predict.py : 각각 학습, 검증, 추론을 수행하는 스크립트
-- overfitting	: 학습 데이터에 너무 맞춰져서 새로운 데이터에 성능이 떨어지는 현상
-- conf (confidence) :	객체가 맞을 확률 ex) conf=0.25 이상만 표시
-- iou (Intersection over Union)	: 예측 박스와 실제 박스의 겹치는 정도. 값이 높을수록 정확
-- NMS (Non-Maximum Suppression) :	겹치는 박스 중 가장 확신 높은 것만 남기고 제거
-- runs/detect/predict	: 추론 결과 이미지/영상이 저장되는 기본 경로
+| 자주쓰이는 용어 | 설명 |
+|------|------|
+| backbone | 이미지에서 특징을 추출하는 역할을 하는 CNN 구조 (ex: CSPDarknet, EfficientNet 등) |
+| head | 추출된 특징을 바탕으로 객체의 클래스와 위치를 예측하는 부분 |
+| image size (imgsz=640) | 입력 이미지의 해상도. 작을수록 속도 빠름, 크면 정확도↑ |
+| batch size | 한 번에 처리할 이미지 수. GPU 메모리에 따라 조절 필요 |
+| labels | 라벨 정보 파일 (클래스 번호, bounding box 좌표 등이 포함된 .txt 파일) |
+| class | 탐지하려는 객체의 종류. ex) 사람, 자동차, 자전거 등 |
+| train.py, val.py, predict.py | 각각 학습, 검증, 추론을 수행하는 스크립트 |
+| epochs | 전체 데이터를 몇 번 반복해서 학습할지 정함 |
+| lr 또는 learning rate | 가중치를 업데이트할 때 변화량 정도. 너무 크면 발산, 너무 작으면 느림 |
+| augmentation | 데이터 다양화를 위한 랜덤 회전, 확대 등 (→ 일반화 성능 향상) |
+| overfitting | 학습 데이터에 너무 맞춰져서 새로운 데이터에 성능이 떨어지는 현상 |
+| conf (confidence) | 객체가 맞을 확률 ex) conf=0.25 이상만 표시 |
+| iou (Intersection over Union) | 예측 박스와 실제 박스의 겹치는 정도. 값이 높을수록 정확 |
+| NMS (Non-Maximum Suppression) | 겹치는 박스 중 가장 확신 높은 것만 남기고 제거 |
+| runs/detect/predict | 추론 결과 이미지/영상이 저장되는 기본 경로 |
+
 ```python
 model = YOLO("yolov8n.pt")  # 모델 로드
 results = model("input.mp4", save=True, conf=0.3, iou=0.5)
