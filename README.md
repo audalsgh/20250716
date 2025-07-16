@@ -21,5 +21,6 @@ YOLOv8을 회사들이 많이 쓰고있고, 더 높은 버전을 쓸수도 있�
 
 -이미지 업로드 예제부터 실행해보니, 매우 잘 인식된다.
 <img width="1258" height="683" alt="image" src="https://github.com/user-attachments/assets/dac28dd8-2cc7-4a31-88dd-c6fdfa34977b" />
+<img width="1816" height="614" alt="image" src="https://github.com/user-attachments/assets/136a19c0-0d42-4946-a132-47292760f3a7" />
 <img width="1260" height="515" alt="image" src="https://github.com/user-attachments/assets/fe2bb98c-3b8f-401f-9ee9-658022fb66c5" />
 
