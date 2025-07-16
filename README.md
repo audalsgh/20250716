@@ -33,7 +33,7 @@ YOLOv8을 회사들이 많이 쓰고있고, 더 높은 버전을 쓸수도 있�
 - args.yaml 파일 내부도 중요하다.
 <img width="174" height="504" alt="image" src="https://github.com/user-attachments/assets/498076a4-45f6-47f3-ac9f-74fc6ed83d3b" />
 
-
+<br>
 - result.png 도 중요하다.
 <img width="816" height="474" alt="image" src="https://github.com/user-attachments/assets/09fdd296-476c-47b4-85c9-d8df2ca2d1c0" />
 
