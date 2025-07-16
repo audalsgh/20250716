@@ -8,3 +8,5 @@
 메인함수중 3번째, 여러 파일을 업로드하는 함수를 사용했고, 매 파일마다 시각화하는 부분을 추가했음.
 
 ## 2. YOLO와 Ultralytics (울트라리틱스)
+교수님의 정리본 링크
+[Ultralytics_v8.md](https://github.com/jetsonmom/6.23_automobility_lesson/blob/main/Ultralytics_v8.md)
