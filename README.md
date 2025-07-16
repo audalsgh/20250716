@@ -23,21 +23,21 @@ YOLOv8을 회사들이 많이 쓰고있고, 더 높은 버전을 쓸수도 있�
 <img width="1258" height="683" alt="image" src="https://github.com/user-attachments/assets/dac28dd8-2cc7-4a31-88dd-c6fdfa34977b" />
 <img width="1816" height="614" alt="image" src="https://github.com/user-attachments/assets/136a19c0-0d42-4946-a132-47292760f3a7" />
 <img width="1260" height="515" alt="image" src="https://github.com/user-attachments/assets/fe2bb98c-3b8f-401f-9ee9-658022fb66c5" />
-
+<br>
 - BoxF1_curve, BoxP_curve 등의 파일 내부를 이해하고 발표해야할수도 있다.
 <img width="296" height="787" alt="image" src="https://github.com/user-attachments/assets/42ebc3cc-4611-4388-a957-ace01f921a9b" />
 <img width="818" height="572" alt="image" src="https://github.com/user-attachments/assets/d9fefc2a-d87b-476c-8436-7061681d3c4e" />
-
+<br>
 - args.yaml 파일 내부도 중요하다.
 <img width="174" height="504" alt="image" src="https://github.com/user-attachments/assets/498076a4-45f6-47f3-ac9f-74fc6ed83d3b" />
-
+<br>
 - result.png 도 중요하다.
 <img width="816" height="474" alt="image" src="https://github.com/user-attachments/assets/09fdd296-476c-47b4-85c9-d8df2ca2d1c0" />
-
+<br>
 - COCO 데이터셋을 확인해볼수있고, 모델이 라벨링할때 샘플로 쓰이는 사진들이다.
 <img width="292" height="543" alt="image" src="https://github.com/user-attachments/assets/02d620d7-3b40-4b35-85de-0061202d9541" />
 <img width="818" height="721" alt="image" src="https://github.com/user-attachments/assets/61da57e8-1b80-4a38-920d-6d7b041079a5" />
-
+<br>
 - val_batch0_labels.jpg, train_vatch0.jpg 내부엔 샘플사진을 받고 모델이 라벨링해둔 것들을 살펴볼수있다.
 <img width="812" height="809" alt="image" src="https://github.com/user-attachments/assets/5ac5c510-1b94-466a-8b6e-9f2e13df80f0" />
 <img width="817" height="453" alt="image" src="https://github.com/user-attachments/assets/8acf32c1-1907-42e3-8f6f-0d5b870f8477" />
