@@ -11,6 +11,8 @@
 교수님의 필기 정리본 링크
 [Ultralytics_v8.md](https://github.com/jetsonmom/6.23_automobility_lesson/blob/main/Ultralytics_v8.md)
 
+[Ultralytics 사이트의 YOLO 설명](https://docs.ultralytics.com/ko/models/yolov8/#performance-metrics)
+
 | 자주쓰이는 용어 | 설명 |
 |------|------|
 | backbone | 이미지에서 특징을 추출하는 역할을 하는 CNN 구조 (ex: CSPDarknet, EfficientNet 등) |
