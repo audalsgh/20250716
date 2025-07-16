@@ -40,6 +40,8 @@ YOLOv8을 회사들이 많이 쓰고있고, 더 높은 버전을 쓸수도 있�
 <img width="837" height="506" alt="image" src="https://github.com/user-attachments/assets/1bfe0c89-cc34-4938-af7f-0f8414806d43" /><br>
 
 ## YOLOv8에 이미지, 비디오를 업로드해보는 예제
+<img width="785" height="330" alt="image" src="https://github.com/user-attachments/assets/769096e7-6c2b-4dad-a459-eed03baeaece" />
+
 - cpu로 하게되면 시간이 오래걸리니 꼭 런타임을 gpu로 선택하자.
 <img width="1573" height="719" alt="image" src="https://github.com/user-attachments/assets/ba4044db-e3c5-4138-8bc7-cfde0c1309e0" />
 
