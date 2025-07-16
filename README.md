@@ -7,9 +7,34 @@
 <img width="1630" height="802" alt="image" src="https://github.com/user-attachments/assets/691ed75c-596c-4b68-8846-fe3b3d56adda" /><br>
 메인함수중 3번째, 여러 파일을 업로드하는 함수를 사용했고, 매 파일마다 시각화하는 부분을 추가했음.
 
-## 2. YOLO와 Ultralytics (울트라리틱스)
+## 2. Ultralytics (울트라리틱스)의 YOLO
 교수님의 필기 정리본 링크
 [Ultralytics_v8.md](https://github.com/jetsonmom/6.23_automobility_lesson/blob/main/Ultralytics_v8.md)
+
+자주쓰이는 용어
+- backbone : 이미지에서 특징을 추출하는 역할을 하는 CNN 구조 (ex: CSPDarknet, EfficientNet 등)
+- head : 추출된 특징을 바탕으로 객체의 클래스와 위치를 예측하는 부분
+- image size (imgsz=640) : 입력 이미지의 해상도. 작을수록 속도 빠름, 크면 정확도↑
+- batch size : 한 번에 처리할 이미지 수. GPU 메모리에 따라 조절 필요
+- labels : 라벨 정보 파일 (클래스 번호, bounding box 좌표 등이 포함된 .txt 파일)
+- class :	탐지하려는 객체의 종류. ex) 사람, 자동차, 자전거 등
+- train.py, val.py, predict.py : 각각 학습, 검증, 추론을 수행하는 스크립트
+- overfitting	: 학습 데이터에 너무 맞춰져서 새로운 데이터에 성능이 떨어지는 현상
+- conf (confidence) :	객체가 맞을 확률 ex) conf=0.25 이상만 표시
+- iou (Intersection over Union)	: 예측 박스와 실제 박스의 겹치는 정도. 값이 높을수록 정확
+- NMS (Non-Maximum Suppression) :	겹치는 박스 중 가장 확신 높은 것만 남기고 제거
+- runs/detect/predict	: 추론 결과 이미지/영상이 저장되는 기본 경로
+```python
+model = YOLO("yolov8n.pt")  # 모델 로드
+results = model("input.mp4", save=True, conf=0.3, iou=0.5)
+```
+| 매개변수            | 설명                               |
+| --------------- | -------------------------------- |
+| `conf`          | 최소 신뢰도. 낮추면 더 많은 객체 감지하지만 오탐 많아짐 |
+| `iou`           | NMS에서 겹침 허용 정도                   |
+| `save=True`     | 결과 이미지 또는 영상 저장 여부               |
+| `save_txt=True` | 예측 좌표 `.txt` 파일로 저장              |
+
 
 <img width="837" height="506" alt="image" src="https://github.com/user-attachments/assets/1bfe0c89-cc34-4938-af7f-0f8414806d43" /><br>
 YOLOv8의 스몰, 미디엄, 엑스라지까지 성능요약, fps가 가장 중요. 크게 차이난다! 엑스라지는 colab에선 못할것.<br>
